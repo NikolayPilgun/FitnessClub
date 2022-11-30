@@ -1,3 +1,43 @@
 .join {
-	font-size: 40px;
+	display: flex;
+	padding: 0 2rem;
+	gap: 10rem;
+}
+.joinLeft {
+	color: aliceblue;
+	font-size: 3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+}
+.joinLeft > hr {
+	position: absolute;
+	width: 10.5rem;
+	border: 2px solid var(--orange);
+	border-radius: 20%;
+	margin: -10px 0;
+}
+.joinLeft > div {
+	display: flex;
+	gap: 2rem;
+}
+.joinRight {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.emailContainer {
+	display: flex;
+	gap: 3rem;
+	background-color: gray;
+	padding: 1rem 2rem;
+}
+.emailContainer > input {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: var(--lightgray);
+}
+::placeholder {
+	color: var(--lightgray);
 }

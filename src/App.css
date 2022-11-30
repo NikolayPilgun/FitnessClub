@@ -37,3 +37,7 @@
 .btn:hover {
 	cursor: pointer;
 }
+.btn-j {
+	background-color: var(--orange);
+	color: aliceblue;
+}
