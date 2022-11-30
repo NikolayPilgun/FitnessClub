@@ -7,6 +7,8 @@ import styles from "./plans.module.css";
 function Plans() {
 	return (
 		<div className={styles.plans}>
+			<div className="blur plans-blur-1"></div>
+			<div className="blur plans-blur-2"></div>
 			<div className={styles.plansHeader}>
 				<span className="stroke_text">Ready to start</span>
 				<span>Your journey</span>

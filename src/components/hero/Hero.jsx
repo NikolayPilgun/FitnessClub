@@ -9,6 +9,7 @@ import styles from "./hero.module.css";
 function Hero() {
 	return (
 		<div className={styles.hero}>
+			<div className="blur hero-blur"></div>
 			<div className={styles.leftHero}>
 				<Header />
 				{/* the best ad */}
