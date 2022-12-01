@@ -12,7 +12,7 @@ function Testimonials() {
 	const tLength = testimonialsData.length;
 
 	return (
-		<div className={styles.testimonials}>
+		<div className={styles.testimonials} id="testimonials">
 			<div className={styles.tesLeft}>
 				<span>Testimonials</span>
 				<span className="stroke_text">What they</span>

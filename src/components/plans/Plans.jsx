@@ -6,7 +6,7 @@ import styles from "./plans.module.css";
 
 function Plans() {
 	return (
-		<div className={styles.plans}>
+		<div className={styles.plans} id="plans">
 			<div className="blur plans-blur-1"></div>
 			<div className="blur plans-blur-2"></div>
 			<div className={styles.plansHeader}>

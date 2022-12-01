@@ -79,3 +79,17 @@
 .plansSections > :nth-child(2) > button {
 	color: var(--orange);
 }
+@media screen and (max-width: 768px) {
+	.plansSections {
+		flex-direction: column;
+	}
+	.plansSections > :nth-child(2) {
+		transform: none;
+	}
+	.plansHeader {
+		flex-direction: column;
+		gap: 1rem;
+		font-size: small;
+		align-items: center;
+	}
+}

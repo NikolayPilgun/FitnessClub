@@ -26,7 +26,7 @@ function Join() {
 	};
 
 	return (
-		<div className={styles.join}>
+		<div className={styles.join} id="join">
 			<div className={styles.joinLeft}>
 				<hr />
 				<div>

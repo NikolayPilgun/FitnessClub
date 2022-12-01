@@ -5,7 +5,7 @@ import styles from "./programs.module.css";
 
 function Programs() {
 	return (
-		<div className={styles.programs} id={styles.programs}>
+		<div className={styles.programs} id="programs">
 			{/* header */}
 			<div className={styles.programsHeader}>
 				<span className="stroke_text">Explore our</span>

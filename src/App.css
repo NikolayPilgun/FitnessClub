@@ -81,3 +81,8 @@
 	filter: blur(200px);
 	background: rgb(255, 115, 0);
 }
+@media screen and (max-width: 768px) {
+	.hero-blur {
+		width: 14rem;
+	}
+}
