@@ -27,6 +27,17 @@ function Header() {
 				</div>
 			) : (
 				<ul className={styles.headerMenu}>
+					<li
+						style={{
+							position: "absolute",
+							top: "10px",
+							right: "15px",
+							fontSize: "20px",
+						}}
+						onClick={() => setMenuOpened(false)}
+					>
+						X
+					</li>
 					<li>
 						<Link
 							onClick={() => setMenuOpened(false)}
