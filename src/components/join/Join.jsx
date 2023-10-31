@@ -10,10 +10,7 @@ function Join() {
 
 		emailjs
 			.sendForm(
-				"service_bkngqlp",
-				"template_ivkssir",
-				form.current,
-				"b1xzPRcY0ZP4J89yS"
+				
 			)
 			.then(
 				(result) => {
