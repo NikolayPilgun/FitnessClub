@@ -1,6 +1,6 @@
 [![Header](https://github.com/NikolayPilgun/Portfolio/blob/main/src/data/dataImg/Fitness/fitness1.svg)](https://nikolaypilgun.ru/fitnessClub)
 
-# Вид сайта — Сайт-визитка. Тема — Фитнес-клуб.
+# Тип сайта — Сайт-визитка. Тема — Фитнес-клуб.
 
 ## Данный сайт создан на основе YouTube-курса (проект является тренировочным).
 
