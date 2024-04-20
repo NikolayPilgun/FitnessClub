@@ -15,7 +15,7 @@
 
 Для установки и запуска проекта, необходим:
 
-- [NodeJS](https://nodejs.org/) v20+.
+- [NodeJS](https://nodejs.org/) 
 - [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
 
 ### Установка зависимостей.
